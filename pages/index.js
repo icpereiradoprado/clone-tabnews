@@ -12,7 +12,15 @@ function Home(){
     return (
         <div>
             <h1 style={{textAlign: "center"}}>Mensagem dedicada a todos os meus familiares e principalmente ao meu amor (Núbia 😍).</h1>
-            <div style={style}>Eu amo todos vocês! ❤️</div>
+            <div style={style}>Eu amo todos vocês! ❤️</div><br/>
+            <div style={{fontSize: "26px"}}>Núbia, meu amor, casa comigo?</div>
+            <div>
+                <input type="checkbox"></input>
+                <label for="first-response">SIM: </label>
+                <span style={{margin: "0 8px"}}>OU</span>
+                <input type="checkbox"></input>
+                <label for="first-response">COM CERTEZA: </label>
+            </div>
         </div>
     )
 }
