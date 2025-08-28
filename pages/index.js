@@ -1,5 +1,5 @@
 function Home() {
-  const style = {
+  /* const style = {
     background:
       "linear-gradient(90deg, rgba(224,16,16,1) 0%, rgba(121,9,82,1) 42%, rgba(0,213,255,1) 100%)",
     maxWidth: "480px",
@@ -9,8 +9,9 @@ function Home() {
     textAlign: "center",
     fontSize: "30px",
     margin: "auto",
-  };
-  return (
+  }; */
+
+  const declaration = () => (
     <div>
       <h1 style={{ textAlign: "center" }}>
         Mensagem dedicada a todos os meus familiares e principalmente ao meu
@@ -27,6 +28,11 @@ function Home() {
         <label for="first-response">COM CERTEZA: </label>
       </div>
     </div>
+  );
+  return (
+    <>
+      <h1>Em construção</h1>
+    </>
   );
 }
 
